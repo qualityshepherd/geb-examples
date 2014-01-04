@@ -25,7 +25,7 @@ environments {
 
     'ff' {
         driver = { new FirefoxDriver() }
-        //driver..manage().window().setSize(new Dimension(1028, 768))
+        driver.Manage().Window.Maximize();
     }
 
     'safari' {
