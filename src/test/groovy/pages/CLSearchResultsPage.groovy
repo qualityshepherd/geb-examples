@@ -5,7 +5,7 @@ import geb.Page
 class CLSearchResultsPage extends Page {
     static at = {searchResults}
     static content = {
-        searchResults {$('body.toc.search')}
+        searchResults(wait:true) {$('body.search')}
         searchBox {$('input#query')}
         searchButton {$('input#searchbtn')}
 
