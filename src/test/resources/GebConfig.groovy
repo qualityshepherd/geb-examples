@@ -1,4 +1,3 @@
-import org.openqa.selenium.Dimension
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.ie.InternetExplorerDriver
@@ -25,7 +24,7 @@ environments {
 
     'ff' {
         driver = { new FirefoxDriver() }
-        driver.Manage().Window.Maximize();
+        //driver.Manage().Window.Maximize()
     }
 
     'safari' {
