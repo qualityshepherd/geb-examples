@@ -1,32 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c05874d7-0736-4613-84a8-83a5083cbd7b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_gebish_geb_waiting_0_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__commons_codec_commons_codec_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_8.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_apache_httpcomponents_httpclient_4_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_1.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_gebish_geb_ast_0_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_gebish_geb_ast_0_9_2.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_gebish_geb_core_0_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_gebish_geb_core_0_9_2.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_gebish_geb_implicit_assertions_0_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_gebish_geb_implicit_assertions_0_9_2.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_gebish_geb_spock_0_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_gebish_geb_spock_0_9_2.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_android_driver_2_37_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_android_driver_2_39_0.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_api_2_37_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_39_0.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_37_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_39_0.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_37_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_39_0.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_37_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_39_0.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_ie_driver_2_37_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_39_0.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_iphone_driver_2_37_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_iphone_driver_2_39_0.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_java_2_37_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_39_0.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_remote_driver_2_37_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_39_0.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_safari_driver_2_37_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_39_0.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_server_2_37_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_server_2_39_0.xml" />
-      <change type="MOVED" beforePath="C:\Code\geb-examples\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_support_2_37_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_39_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/GebConfig.groovy" afterPath="$PROJECT_DIR$/src/test/resources/GebConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/pages/MoodleSandboxPage.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/pages/MoodleSandboxPage.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+    <list default="true" id="c05874d7-0736-4613-84a8-83a5083cbd7b" name="Default" comment="added main folders...&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geb-examples.iml" afterPath="$PROJECT_DIR$/geb-examples.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GebTest.iws" />
@@ -103,7 +79,7 @@
       <file leaf-file-name="CLSearchResultsPage.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="38" selection-start="293" selection-end="293" vertical-scroll-proportion="0.5459057" vertical-offset="0" max-vertical-offset="600">
+            <state line="11" column="38" selection-start="293" selection-end="293" vertical-scroll-proportion="0.3583062" vertical-offset="0" max-vertical-offset="614">
               <folding />
             </state>
           </provider>
@@ -292,6 +268,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -551,7 +531,11 @@
       <created>1388861634928</created>
       <updated>1388861634928</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated webdriver and geb versions; &#10;added main folders...">
+      <created>1388886507058</created>
+      <updated>1388886507059</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -559,7 +543,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917318" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917318" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.69014084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -575,7 +559,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1540931" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1540931" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.7535101" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -597,7 +581,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="maximize ff browser window (it's annoyingly small)..." />
-    <option name="LAST_COMMIT_MESSAGE" value="maximize ff browser window (it's annoyingly small)..." />
+    <MESSAGE value="Updated webdriver and geb versions; &#10;added main folders..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated webdriver and geb versions; &#10;added main folders..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -708,7 +693,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="293" selection-end="293" vertical-scroll-proportion="0.5459057" vertical-offset="0" max-vertical-offset="600">
+        <state line="11" column="38" selection-start="293" selection-end="293" vertical-scroll-proportion="0.3583062" vertical-offset="0" max-vertical-offset="614">
           <folding />
         </state>
       </provider>
