@@ -1,3 +1,5 @@
+import geb.driver.SauceLabsDriverFactory
+import org.apache.xerces.impl.xs.SchemaSymbols
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.ie.InternetExplorerDriver
@@ -31,6 +33,15 @@ environments {
         driver = { new SafariDriver() }
     }
 
+    'sauce' {
+        driver = {
+            // sauce.config: <browser>:<os>:<ver> eg. iphone:OSX10.9:7
+            def sauceBrowser = System.properties.getProperty('sauce.config')
+            def username = System.properties.getProperty('sauce.user')
+            def accessKey = System.properties.getProperty('sauce.key')
+            new SauceLabsDriverFactory().create(sauceBrowser, username, accessKey)
+        }
+    }
 }
 
 waiting {
