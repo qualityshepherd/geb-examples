@@ -1,8 +1,5 @@
 import geb.Browser
 
-/**
- * Created by qualityshepherd on 1/7/14.
- */
 Browser.drive {
     go('http://translate.google.com/')
     $('div#gt-sl-gms').click()
