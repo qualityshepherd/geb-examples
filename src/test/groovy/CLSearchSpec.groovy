@@ -1,6 +1,7 @@
 import geb.spock.GebReportingSpec
 import pages.CLSearchResultsPage
 import pages.CLMainPage
+import spock.lang.Ignore
 import spock.lang.IgnoreRest
 
 class CLSearchSpec extends GebReportingSpec {
@@ -16,15 +17,15 @@ class CLSearchSpec extends GebReportingSpec {
         at CLMainPage
     }
 
-    def 'search with few results offers nearby results'() {
+    def 'searches with few results offer nearby results'() {
         given:
         at CLMainPage
 
-        when:
+        when: 'select category from dropdown'
         dropdown = category
         searchFor(fewResultsText)
 
-        then:
+        then: 'nearby results message is displayed'
         at CLSearchResultsPage
         nearbyResults.displayed
     }
@@ -118,5 +119,24 @@ class CLSearchSpec extends GebReportingSpec {
         then: 'all results have pics'
         at CLSearchResultsPage
         picIcons.size() == resultRows.size()
+    }
+
+
+    @Ignore('tracking down some bugs in module selectors...')
+    // example of using module for repeating structures (thanks to Rob Fletcher!)
+    def 'verify title is in results'() {
+        given:
+        at CLMainPage
+
+        when:
+        searchFor('')
+
+        then:
+        at CLSearchResultsPage
+        searchResults.size() == 100
+        println searchResults.date
+        println searchResults.postTitle
+        println searchResults.price // returning empty strings...
+        println searchResults.location // works in page object but not in module
     }
 }
