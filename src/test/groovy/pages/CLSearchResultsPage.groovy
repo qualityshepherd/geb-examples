@@ -9,7 +9,8 @@ class CLSearchResultsPage extends Page {
         searchBody(wait:true) {$('body.search')}
         searchBox {$('input#query')}
         searchButton {$('input#searchbtn')}
-        searchResults { $('p.row').collect {module CLResults, it} }
+        // use moduleList to get list of search results and elements...
+        searchResults {index -> moduleList CLResults, $('p.row'), index}
 
         picviewButton {$('a#picview')}
         picviewButtonSelected(required:false) {$('a#picview.sel')}
@@ -24,6 +25,6 @@ class CLSearchResultsPage extends Page {
         noResultsMessage(required:false) {$('div.noresults')}
 
         //price {$('span.price').text()}
-        //location {$('small').text()}
+        location {$('span.pnr small')}
     }
 }

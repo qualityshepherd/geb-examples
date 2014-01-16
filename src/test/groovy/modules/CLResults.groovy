@@ -11,7 +11,7 @@ class CLResults extends Module {
         date {$('span.date').text()}
         postTitle {$('a',1).text()}
         price(required:false) {$('span.price').text()}
-        location {$('small').text()}
+        location {$('span.pnr small')}
         pic(required:false) {$('span.p')}
         map(required:false) {$('a.maptag')}
         catagory {$('a.gc')}

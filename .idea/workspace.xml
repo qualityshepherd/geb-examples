@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c05874d7-0736-4613-84a8-83a5083cbd7b" name="Default" comment="removed ff maximize">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/modules/CLResults.groovy" />
+    <list default="true" id="c05874d7-0736-4613-84a8-83a5083cbd7b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/modules/CLResults.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/modules/CLResults.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -72,7 +72,7 @@
       <file leaf-file-name="GebConfig.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="1120">
+            <state line="10" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="1120">
               <folding />
             </state>
           </provider>
@@ -81,7 +81,7 @@
       <file leaf-file-name="CLResults.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/modules/CLResults.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="53" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="500">
+            <state line="11" column="35" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="500">
               <folding />
             </state>
           </provider>
@@ -90,10 +90,8 @@
       <file leaf-file-name="CLSearchResultsPage.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="61" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="700">
-              <folding>
-                <element signature="e#15#30#0" expanded="true" />
-              </folding>
+            <state line="4" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="700">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,7 +99,7 @@
       <file leaf-file-name="CLSearchSpec.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="81" selection-start="2883" selection-end="2883" vertical-scroll-proportion="0.2857143" vertical-offset="2252" max-vertical-offset="2880">
+            <state line="123" column="0" selection-start="2739" selection-end="2739" vertical-scroll-proportion="0.11564626" vertical-offset="2312" max-vertical-offset="2900">
               <folding />
             </state>
           </provider>
@@ -110,7 +108,7 @@
       <file leaf-file-name="MoodleSandboxLoginSpec.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/MoodleSandboxLoginSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="178" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
+            <state line="7" column="0" selection-start="178" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="560">
               <folding />
             </state>
           </provider>
@@ -119,7 +117,7 @@
       <file leaf-file-name="CLMainPage.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/CLMainPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+            <state line="4" column="6" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -145,8 +143,8 @@
         <option value="$PROJECT_DIR$/src/test/groovy/GoogleTranslate.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/GoogleTranslateSpec.groovy" />
         <option value="$PROJECT_DIR$/src/test/resources/GebConfig.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/modules/CLResults.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/modules/CLResults.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy" />
       </list>
     </option>
@@ -189,7 +187,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -347,6 +344,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -655,12 +653,12 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Groovy.Bug" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Sauce" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Nuttin... " />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MoodleSandboxLoginSpec" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CLSearchSpec" />
-      <item index="5" class="java.lang.String" itemvalue="Maven.Sauce" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Sauce" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Nuttin... " />
+      <item index="2" class="java.lang.String" itemvalue="Maven.Sauce" />
+      <item index="3" class="java.lang.String" itemvalue="Groovy.Bug" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MoodleSandboxLoginSpec" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CLSearchSpec" />
     </list>
     <recent_temporary>
       <list size="3">
@@ -734,7 +732,11 @@
       <created>1389153144985</created>
       <updated>1389153144985</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added CLResults module to demo repeating structures in search results. Added test (currently Ignored) and page object support for same.">
+      <created>1389532094924</created>
+      <updated>1389532094924</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -748,11 +750,11 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.69014084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810047" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -788,7 +790,8 @@
     <MESSAGE value="added option to run tests on saucelabs..." />
     <MESSAGE value="added raw Geb google translate test..." />
     <MESSAGE value="removed IntelleJ boilerplate..." />
-    <option name="LAST_COMMIT_MESSAGE" value="removed IntelleJ boilerplate..." />
+    <MESSAGE value="Added CLResults module to demo repeating structures in search results. Added test (currently Ignored) and page object support for same." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CLResults module to demo repeating structures in search results. Added test (currently Ignored) and page object support for same." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -798,6 +801,90 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/modules/CLResults.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="8" selection-start="921" selection-end="958" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="8" selection-start="3118" selection-end="3118" vertical-scroll-proportion="0.0" vertical-offset="2760" max-vertical-offset="2980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/MoodleSandboxLoginSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="178" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/CLMainPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="1220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/modules/CLResults.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="53" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="61" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="81" selection-start="2883" selection-end="2883" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/MoodleSandboxLoginSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="178" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/CLMainPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="0" selection-start="1039" selection-end="1460" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1220">
@@ -815,9 +902,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="600">
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -932,29 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="1120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="61" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="700">
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/modules/CLResults.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="53" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="500">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/MoodleSandboxLoginSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="178" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
@@ -969,9 +1031,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/modules/CLResults.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="35" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="1120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="81" selection-start="2883" selection-end="2883" vertical-scroll-proportion="0.2857143" vertical-offset="2252" max-vertical-offset="2880">
+        <state line="123" column="0" selection-start="2739" selection-end="2739" vertical-scroll-proportion="0.11564626" vertical-offset="2312" max-vertical-offset="2900">
           <folding />
         </state>
       </provider>

@@ -122,7 +122,7 @@ class CLSearchSpec extends GebReportingSpec {
     }
 
 
-    @Ignore('tracking down some bugs in module selectors...')
+    @IgnoreRest
     // example of using module for repeating structures (thanks to Rob Fletcher!)
     def 'verify title is in results'() {
         given:
@@ -133,10 +133,11 @@ class CLSearchSpec extends GebReportingSpec {
 
         then:
         at CLSearchResultsPage
+        println searchResults.location.text() // this fails via module
+        location.each {println it.text()} // this works via page object
         searchResults.size() == 100
         println searchResults.date
         println searchResults.postTitle
         println searchResults.price // returning empty strings...
-        println searchResults.location // works in page object but not in module
     }
 }
