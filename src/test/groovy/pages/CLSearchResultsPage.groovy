@@ -21,10 +21,7 @@ class CLSearchResultsPage extends Page {
         picIcons {$('span.px')}
         resultRows {$('p.row')}
 
-        nearbyResults(required:false) {$('h4.ban.nearby')}
+        nearbyResults(wait:true, required:false) {$('h4.ban.nearby span.bantext')}
         noResultsMessage(required:false) {$('div.noresults')}
-
-        //price(required:false) {$('span.price')}
-        //location {$('span.pnr small')}
     }
 }

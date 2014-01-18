@@ -2,33 +2,27 @@ import geb.spock.GebReportingSpec
 import pages.CLPostPage
 import pages.CLSearchResultsPage
 import pages.CLMainPage
-import spock.lang.Ignore
-import spock.lang.IgnoreRest
 
 class CLSearchSpec extends GebReportingSpec {
     static category = 'community'
     static fewResultsText = 'bluegrass'
     static noResultsText = '!@#$%^&*('
+    static location = 'madison'
 
     def setup() {
-        when:
         to CLMainPage
-
-        then:
-        at CLMainPage
     }
 
     def 'searches with few results offer nearby results'() {
         given:
         at CLMainPage
 
-        when: 'select category from dropdown'
-        dropdown = category
+        when: 'search for something that returns only a few results'
         searchFor(fewResultsText)
 
         then: 'nearby results message is displayed'
         at CLSearchResultsPage
-        nearbyResults.displayed
+        nearbyResults.isDisplayed()
     }
 
     def 'message displayed when no results found'() {
@@ -122,7 +116,19 @@ class CLSearchSpec extends GebReportingSpec {
         picIcons.size() == resultRows.size()
     }
 
-    // example of using module for repeating structures
+    // examples of using module for repeating structures
+    def 'Location "Madison" exists in results'() {
+        given:
+        at CLMainPage
+
+        when:
+        searchFor('')
+
+        then:
+        at CLSearchResultsPage
+        searchResults.location.find {it =~ location}
+    }
+
     def 'open first post and verify title'() {
         given:
         at CLMainPage
@@ -137,6 +143,6 @@ class CLSearchSpec extends GebReportingSpec {
 
         then:
         at CLPostPage
-        postingTitle.text( ) == firstPost
+        postingTitle.text() =~ firstPost
     }
 }
