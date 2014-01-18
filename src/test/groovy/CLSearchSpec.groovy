@@ -1,4 +1,5 @@
 import geb.spock.GebReportingSpec
+import pages.CLPostPage
 import pages.CLSearchResultsPage
 import pages.CLMainPage
 import spock.lang.Ignore
@@ -121,23 +122,21 @@ class CLSearchSpec extends GebReportingSpec {
         picIcons.size() == resultRows.size()
     }
 
-
-    @IgnoreRest
-    // example of using module for repeating structures (thanks to Rob Fletcher!)
-    def 'verify title is in results'() {
+    // example of using module for repeating structures
+    def 'open first post and verify title'() {
         given:
         at CLMainPage
 
         when:
         searchFor('')
+        at CLSearchResultsPage
+
+        // this is way too expensive to call this way but it's just an example...
+        def firstPost = searchResults.postTitleText[0]
+        searchResults.postTitleLink[0].click()
 
         then:
-        at CLSearchResultsPage
-        println searchResults.location.text() // this fails via module
-        location.each {println it.text()} // this works via page object
-        searchResults.size() == 100
-        println searchResults.date
-        println searchResults.postTitle
-        println searchResults.price // returning empty strings...
+        at CLPostPage
+        postingTitle.text( ) == firstPost
     }
 }
