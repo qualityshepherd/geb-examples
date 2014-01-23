@@ -10,7 +10,8 @@ class CLSearchResultsPage extends Page {
         searchBox {$('input#query')}
         searchButton {$('input#searchbtn')}
         // use moduleList to get list of search results and elements...
-        searchResults {index -> moduleList CLResultsModule, $('p.row'), index}
+        searchResults {moduleList CLResultsModule, $('p.row')}
+        searchResult {moduleList CLResultsModule, $('p.row')}
 
         picviewButton {$('a#picview')}
         picviewButtonSelected(required:false) {$('a#picview.sel')}
