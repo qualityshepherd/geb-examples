@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c05874d7-0736-4613-84a8-83a5083cbd7b" name="Default" comment="Don't need to pass index to module when using ModuleList...&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/modules/CheckboxModule.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="c05874d7-0736-4613-84a8-83a5083cbd7b" name="Default" comment="Added CheckboxModule and updated checkbox test...&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GebTest.iws" />
@@ -860,7 +856,11 @@
       <created>1390486014229</created>
       <updated>1390486014229</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added CheckboxModule and updated checkbox test...">
+      <created>1391293800328</created>
+      <updated>1391293800328</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -919,7 +919,8 @@
     <MESSAGE value="Fixed the CLModule selector issues, added a new spec and page..." />
     <MESSAGE value="Fixed some bugs and general code cleanup..." />
     <MESSAGE value="Don't need to pass index to module when using ModuleList..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Don't need to pass index to module when using ModuleList..." />
+    <MESSAGE value="Added CheckboxModule and updated checkbox test..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CheckboxModule and updated checkbox test..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
