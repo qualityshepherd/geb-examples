@@ -2,6 +2,7 @@ package pages
 
 import geb.Page
 import modules.CLResultsModule
+import modules.CheckboxModule
 
 class CLSearchResultsPage extends Page {
     static at = {searchBody}
@@ -18,7 +19,7 @@ class CLSearchResultsPage extends Page {
         listviewButton {$('a#listview')}
         listviewButtonSelected(required:false) {$('a#listview.sel')}
 
-        hasPicCheckbox {$('span.haspic')}
+        picCheckbox {module CheckboxModule, $("input", name:"hasPic")}
         picIcons {$('span.px')}
         resultRows {$('p.row')}
 

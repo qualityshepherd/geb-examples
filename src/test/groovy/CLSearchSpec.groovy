@@ -2,6 +2,7 @@ import geb.spock.GebReportingSpec
 import pages.CLPostPage
 import pages.CLSearchResultsPage
 import pages.CLMainPage
+import spock.lang.IgnoreRest
 
 class CLSearchSpec extends GebReportingSpec {
     static category = 'community'
@@ -97,6 +98,7 @@ class CLSearchSpec extends GebReportingSpec {
         listviewButtonSelected
     }
 
+    @IgnoreRest
     def 'filter results with pics displays only results with pics'() {
         given:
         at CLMainPage
@@ -108,10 +110,11 @@ class CLSearchSpec extends GebReportingSpec {
         at CLSearchResultsPage
 
         when: 'filter results with pics'
-        hasPicCheckbox.click()
+        picCheckbox.check()
         searchButton.click()
 
         then: 'all results have pics'
+        picCheckbox.isChecked()
         at CLSearchResultsPage
         picIcons.size() == resultRows.size()
     }
@@ -144,5 +147,9 @@ class CLSearchSpec extends GebReportingSpec {
         then:
         at CLPostPage
         postingTitle.text() =~ firstPost
+    }
+
+    def "checkbox test..."() {
+
     }
 }
