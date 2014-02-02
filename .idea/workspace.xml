@@ -114,8 +114,10 @@
       <file leaf-file-name="CLSearchSpec.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="0" selection-start="2303" selection-end="2303" vertical-scroll-proportion="0.19672132" vertical-offset="1800" max-vertical-offset="3160">
-              <folding />
+            <state line="132" column="52" selection-start="3099" selection-end="3099" vertical-scroll-proportion="4.765343" vertical-offset="0" max-vertical-offset="3160">
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -856,7 +858,11 @@
       <created>1391293884715</created>
       <updated>1391293884715</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Removing @IgnoreRest... woops!">
+      <created>1391305145840</created>
+      <updated>1391305145840</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -917,7 +923,8 @@
     <MESSAGE value="Don't need to pass index to module when using ModuleList..." />
     <MESSAGE value="Added CheckboxModule and updated checkbox test..." />
     <MESSAGE value="Added CheckboxModule and updated checkbox test...&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added CheckboxModule and updated checkbox test...&#10;" />
+    <MESSAGE value="Removing @IgnoreRest... woops!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing @IgnoreRest... woops!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -937,7 +944,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="19" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="3080">
-          <folding />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -974,7 +983,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="19" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="3080">
-          <folding />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1004,7 +1015,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="19" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="3080">
-          <folding />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1034,7 +1047,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="138" column="8" selection-start="3118" selection-end="3118" vertical-scroll-proportion="0.0" vertical-offset="2760" max-vertical-offset="2980">
-          <folding />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1078,7 +1093,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="125" column="81" selection-start="2883" selection-end="2883" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2880">
-          <folding />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1120,7 +1137,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="6" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="2560">
-          <folding />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1279,8 +1298,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="0" selection-start="2303" selection-end="2303" vertical-scroll-proportion="0.19672132" vertical-offset="1800" max-vertical-offset="3160">
-          <folding />
+        <state line="132" column="52" selection-start="3099" selection-end="3099" vertical-scroll-proportion="4.765343" vertical-offset="0" max-vertical-offset="3160">
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
