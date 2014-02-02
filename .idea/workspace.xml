@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c05874d7-0736-4613-84a8-83a5083cbd7b" name="Default" comment="Added CheckboxModule and updated checkbox test...&#10;">
+    <list default="true" id="c05874d7-0736-4613-84a8-83a5083cbd7b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GebTest.iws" />
@@ -93,16 +94,16 @@
       <file leaf-file-name="CheckboxModule.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/modules/CheckboxModule.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="5" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+            <state line="13" column="25" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CLSearchResultsPage.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CLSearchResultsPage.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="33" selection-start="764" selection-end="764" vertical-scroll-proportion="0.6885246" vertical-offset="0" max-vertical-offset="700">
+            <state line="21" column="17" selection-start="731" selection-end="802" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
               <folding>
                 <element signature="e#15#30#0" expanded="true" />
               </folding>
@@ -110,19 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserData.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/data/UserData.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="4" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="320">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CLSearchSpec.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CLSearchSpec.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="0" selection-start="2648" selection-end="2648" vertical-scroll-proportion="0.0" vertical-offset="2037" max-vertical-offset="3140">
+            <state line="100" column="0" selection-start="2303" selection-end="2303" vertical-scroll-proportion="0.19672132" vertical-offset="1800" max-vertical-offset="3160">
               <folding />
             </state>
           </provider>
@@ -152,10 +144,10 @@
         <option value="$PROJECT_DIR$/src/test/groovy/pages/CLPostPage.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/modules/CLResultsModule.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/data/UserData.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/modules/CheckboxModule" />
         <option value="$PROJECT_DIR$/src/test/groovy/modules/CheckboxModule.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy" />
       </list>
     </option>
   </component>
@@ -860,7 +852,11 @@
       <created>1391293800328</created>
       <updated>1391293800328</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added CheckboxModule and updated checkbox test...&#10;">
+      <created>1391293884715</created>
+      <updated>1391293884715</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -920,7 +916,8 @@
     <MESSAGE value="Fixed some bugs and general code cleanup..." />
     <MESSAGE value="Don't need to pass index to module when using ModuleList..." />
     <MESSAGE value="Added CheckboxModule and updated checkbox test..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added CheckboxModule and updated checkbox test..." />
+    <MESSAGE value="Added CheckboxModule and updated checkbox test...&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CheckboxModule and updated checkbox test...&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1238,13 +1235,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/data/UserData.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/GoogleTranslateSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="38" selection-start="74" selection-end="74" vertical-scroll-proportion="0.10204082" vertical-offset="0" max-vertical-offset="588" />
@@ -1264,26 +1254,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/data/UserData.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="0" selection-start="2648" selection-end="2648" vertical-scroll-proportion="0.0" vertical-offset="2037" max-vertical-offset="3140">
+        <state line="3" column="4" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="320">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/modules/CheckboxModule.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+        <state line="13" column="25" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="33" selection-start="764" selection-end="764" vertical-scroll-proportion="0.6885246" vertical-offset="0" max-vertical-offset="700">
+        <state line="21" column="17" selection-start="731" selection-end="802" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
           <folding>
             <element signature="e#15#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="0" selection-start="2303" selection-end="2303" vertical-scroll-proportion="0.19672132" vertical-offset="1800" max-vertical-offset="3160">
+          <folding />
         </state>
       </provider>
     </entry>

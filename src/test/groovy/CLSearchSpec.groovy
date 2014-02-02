@@ -98,7 +98,6 @@ class CLSearchSpec extends GebReportingSpec {
         listviewButtonSelected
     }
 
-    @IgnoreRest
     def 'filter results with pics displays only results with pics'() {
         given:
         at CLMainPage
@@ -110,11 +109,13 @@ class CLSearchSpec extends GebReportingSpec {
         at CLSearchResultsPage
 
         when: 'filter results with pics'
-        picCheckbox.check()
+        //picCheckbox.check()
+        picCheckbox.value(true)
         searchButton.click()
 
         then: 'all results have pics'
-        picCheckbox.isChecked()
+        //picCheckbox.isChecked()
+        picCheckbox.value() == "1"
         at CLSearchResultsPage
         picIcons.size() == resultRows.size()
     }
