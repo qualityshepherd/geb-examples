@@ -7,9 +7,9 @@ class CLMainPage extends Page {
     static at = {pageTitle}
     static content = {
         pageTitle {title == 'craigslist: madison classifieds for jobs, apartments, personals, for sale, services, community, and events'}
-        searchBox {$('input#query')}
-        searchButton {$('input#go')}
-        dropdown {$('select', name:'catAbb')}
+        searchBox {$("input#query")}
+        searchButton {$("input#go")}
+        dropdown {$("select#catAbb")}
         // workaround for getting the selected text from the dropdown....
         dropdownSelectedText {dropdown.find('option', value:dropdown.value()).text()}
     }
