@@ -59,11 +59,9 @@ class CLSearchSpec extends GebReportingSpec {
 
         when: "performing default search"
         searchFor("")
-
-        then:
         at CLSearchResultsPage
 
-        when: "selecting picview"
+        and: "selecting picview"
         picviewButton.click()
 
         and: "performing another search"
@@ -81,12 +79,10 @@ class CLSearchSpec extends GebReportingSpec {
 
         when:
         searchFor("")
-
-        then:
         at CLSearchResultsPage
 
-        when:
-        picviewButton.click()
+        and: "show only results with pictures"
+        picviewButton.check()
 
         and: "performing another search in another category"
         to CLMainPage
@@ -104,11 +100,9 @@ class CLSearchSpec extends GebReportingSpec {
 
         when:
         searchFor("")
-
-        then:
         at CLSearchResultsPage
 
-        when: "filter results with pics"
+        and: "filter results with pics"
         picCheckbox.check()
         searchButton.click()
 

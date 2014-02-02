@@ -114,7 +114,7 @@
       <file leaf-file-name="CLSearchSpec.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="52" selection-start="3099" selection-end="3099" vertical-scroll-proportion="4.765343" vertical-offset="0" max-vertical-offset="3160">
+            <state line="104" column="11" selection-start="2494" selection-end="2494" vertical-scroll-proportion="-0.5780446" vertical-offset="2417" max-vertical-offset="3000">
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -862,7 +862,15 @@
       <created>1391305145840</created>
       <updated>1391305145840</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Code cleanup...">
+      <created>1391305869562</created>
+      <updated>1391305869562</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Code cleanup...&#10;">
+      <created>1391306006048</created>
+      <updated>1391306006048</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -924,7 +932,9 @@
     <MESSAGE value="Added CheckboxModule and updated checkbox test..." />
     <MESSAGE value="Added CheckboxModule and updated checkbox test...&#10;" />
     <MESSAGE value="Removing @IgnoreRest... woops!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing @IgnoreRest... woops!" />
+    <MESSAGE value="Code cleanup..." />
+    <MESSAGE value="Code cleanup...&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code cleanup...&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1298,7 +1308,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="52" selection-start="3099" selection-end="3099" vertical-scroll-proportion="4.765343" vertical-offset="0" max-vertical-offset="3160">
+        <state line="104" column="11" selection-start="2494" selection-end="2494" vertical-scroll-proportion="-0.5780446" vertical-offset="2417" max-vertical-offset="3000">
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
