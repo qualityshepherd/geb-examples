@@ -109,13 +109,11 @@ class CLSearchSpec extends GebReportingSpec {
         at CLSearchResultsPage
 
         when: "filter results with pics"
-        //picCheckbox.check()
-        picCheckbox.value(true)
+        picCheckbox.check()
         searchButton.click()
 
         then: "all results have pics"
-        //picCheckbox.isChecked()
-        picCheckbox.value() == "1"
+        picCheckbox.isChecked()
         at CLSearchResultsPage
         picIcons.size() == resultRows.size()
     }
