@@ -10,5 +10,4 @@ class CLPostPage extends Page {
     static content = {
         postingTitle(wait:true) {$('h2.postingtitle')}
     }
-
 }
