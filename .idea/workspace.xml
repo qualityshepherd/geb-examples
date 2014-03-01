@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c05874d7-0736-4613-84a8-83a5083cbd7b" name="Default" comment="Updated module example to be slightly more interesting...&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/pages/CLPostPage.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/pages/CLPostPage.groovy" />
+    <list default="true" id="c05874d7-0736-4613-84a8-83a5083cbd7b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GebTest.iws" />
@@ -94,7 +94,7 @@
       <file leaf-file-name="CLPostPage.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/CLPostPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="5" selection-start="228" selection-end="228" vertical-scroll-proportion="0.34976152" vertical-offset="0" max-vertical-offset="629">
+            <state line="13" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="0.41335455" vertical-offset="0" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -913,7 +913,11 @@
       <created>1393702944131</created>
       <updated>1393702944131</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Test commit...">
+      <created>1393703500415</created>
+      <updated>1393703500415</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -979,7 +983,8 @@
     <MESSAGE value="Code cleanup...&#10;" />
     <MESSAGE value="Updated for use on the new Macbook Air, running Mavericks (worst OS name ever)" />
     <MESSAGE value="Updated module example to be slightly more interesting..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated module example to be slightly more interesting..." />
+    <MESSAGE value="Test commit..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Test commit..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1329,7 +1334,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/CLPostPage.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="228" selection-end="228" vertical-scroll-proportion="0.34976152" vertical-offset="0" max-vertical-offset="629">
+        <state line="13" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="0.41335455" vertical-offset="0" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
