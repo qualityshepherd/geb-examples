@@ -8,7 +8,7 @@ import geb.Page
 class CLPostPage extends Page {
     static at = {postingTitle}
     static content = {
-        postingTitle {$('h2.postingtitle')}
+        postingTitle(wait:true) {$('h2.postingtitle')}
     }
 
 }

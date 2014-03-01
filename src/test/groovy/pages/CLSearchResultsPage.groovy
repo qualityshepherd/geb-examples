@@ -10,9 +10,9 @@ class CLSearchResultsPage extends Page {
         searchBody(wait:true) {$('body.search')}
         searchBox {$('input#query')}
         searchButton {$('input#searchbtn')}
+
         // use moduleList to get list of search results and elements...
         searchResults {moduleList CLResultsModule, $('p.row')}
-        searchResult {moduleList CLResultsModule, $('p.row')}
 
         picviewButton {$('a#picview')}
         picviewButtonSelected(required:false) {$('a#picview.sel')}
@@ -25,5 +25,12 @@ class CLSearchResultsPage extends Page {
 
         nearbyResults(wait:true, required:false) {$('h4.ban.nearby span.bantext')}
         noResultsMessage(required:false) {$('div.noresults')}
+    }
+
+    // click the nth post and return the title of the post...
+    def openNthPost(i) {
+        def titleText = searchResults[i].title.text()
+        searchResults[i].title.click()
+        return titleText
     }
 }

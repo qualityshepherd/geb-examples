@@ -133,12 +133,11 @@ class CLSearchSpec extends GebReportingSpec {
         searchFor("")
         at CLSearchResultsPage
 
-        // this is way too expensive to call this way but it"s just an example...
-        def firstPost = searchResults.postTitleText[0]
-        searchResults.postTitleLink[0].click()
+        // this is way too expensive to call this way but it's just an example...
+        def firstPostTitle = openNthPost(0)
 
-        then:
+        then: "results title matches the result list title"
         at CLPostPage
-        postingTitle.text() =~ firstPost
+        postingTitle.text() =~ firstPostTitle
     }
 }

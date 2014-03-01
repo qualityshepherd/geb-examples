@@ -9,8 +9,7 @@ class CLResultsModule extends Module {
     static content = {
         star {$('span.star')}
         date {$('span.date').text()}
-        postTitleLink {$('span.pl a')}
-        postTitleText {postTitleLink.text()}
+        title {$('span.pl a')}
         price(required:false) {$('span.l2 span.price').text()}
         location(required:false) {$('span.pnr small').text()}
         pic(required:false) {$('span.p')}
