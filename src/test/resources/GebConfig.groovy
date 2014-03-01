@@ -12,14 +12,14 @@ driver = { new FirefoxDriver() }
 
 environments {
     // specify environment via -Dgeb.env=ie
-    'ie' {
-        def ieDriver = new File('src/test/resources/IEDriverServer.exe')
-        System.setProperty('webdriver.ie.driver', ieDriver.absolutePath)
-        driver = { new InternetExplorerDriver() }
-    }
+//    'ie' {
+//        def ieDriver = new File('src/test/resources/IEDriverServer.exe')
+//        System.setProperty('webdriver.ie.driver', ieDriver.absolutePath)
+//        driver = { new InternetExplorerDriver() }
+//    }
 
     'chrome' {
-        def chromeDriver = new File('src/test/resources/chromedriver.exe')
+        def chromeDriver = new File('src/test/resources/chromedriver') // add .exe for Windows...
         System.setProperty('webdriver.chrome.driver', chromeDriver.absolutePath)
         driver = { new ChromeDriver() }
     }
