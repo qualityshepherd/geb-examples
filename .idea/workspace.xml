@@ -112,7 +112,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="24" selection-start="115" selection-end="115" vertical-scroll-proportion="0.16611296" vertical-offset="0" max-vertical-offset="602">
+            <state line="5" column="67" selection-start="158" selection-end="158" vertical-scroll-proportion="0.16611296" vertical-offset="0" max-vertical-offset="602">
               <folding />
             </state>
           </provider>
@@ -943,7 +943,11 @@
       <created>1394381839770</created>
       <updated>1394381839770</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Re-upated the README because it doesn't support embedding video... sadly.">
+      <created>1394382088891</created>
+      <updated>1394382088891</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1014,7 +1018,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="maximize ff browser window (it's annoyingly small)..." />
     <MESSAGE value="Updated webdriver and geb versions; &#10;added main folders..." />
     <MESSAGE value="added main folders...&#10;" />
     <MESSAGE value="Updated IEDriver to 32bit - fixed slowmo" />
@@ -1039,7 +1042,8 @@
     <MESSAGE value="updated pom" />
     <MESSAGE value="updated pom&#10;" />
     <MESSAGE value="Updated README with video overview..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated README with video overview..." />
+    <MESSAGE value="Re-upated the README because it doesn't support embedding video... sadly." />
+    <option name="LAST_COMMIT_MESSAGE" value="Re-upated the README because it doesn't support embedding video... sadly." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1377,7 +1381,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="115" selection-end="115" vertical-scroll-proportion="0.16611296" vertical-offset="0" max-vertical-offset="602">
+        <state line="5" column="67" selection-start="158" selection-end="158" vertical-scroll-proportion="0.16611296" vertical-offset="0" max-vertical-offset="602">
           <folding />
         </state>
       </provider>
