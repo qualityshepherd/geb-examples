@@ -1,5 +1,4 @@
 import geb.driver.SauceLabsDriverFactory
-import org.apache.xerces.impl.xs.SchemaSymbols
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.ie.InternetExplorerDriver
@@ -12,11 +11,11 @@ driver = { new FirefoxDriver() }
 
 environments {
     // specify environment via -Dgeb.env=ie
-//    'ie' {
-//        def ieDriver = new File('src/test/resources/IEDriverServer.exe')
-//        System.setProperty('webdriver.ie.driver', ieDriver.absolutePath)
-//        driver = { new InternetExplorerDriver() }
-//    }
+    'ie' {
+        def ieDriver = new File('src/test/resources/IEDriverServer.exe')
+        System.setProperty('webdriver.ie.driver', ieDriver.absolutePath)
+        driver = { new InternetExplorerDriver() }
+    }
 
     'chrome' {
         def chromeDriver = new File('src/test/resources/chromedriver') // add .exe for Windows...
@@ -48,7 +47,7 @@ waiting {
     timeout = 6
     retryInterval = 0.5
     slow { timeout = 12 }
-    reallyslow { timeout = 24 }
+    reallySlow { timeout = 24 }
 }
 
 reportsDir = "target/geb-reports"
