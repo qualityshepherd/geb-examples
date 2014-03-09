@@ -2,23 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c05874d7-0736-4613-84a8-83a5083cbd7b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/pages/WikipediaRecentChangesPage.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/WikipediaRecentChangesSpec.groovy" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_android_driver_2_39_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_iphone_driver_2_39_0.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_40_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_40_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_server_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_server_2_40_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_40_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/GebConfig.groovy" afterPath="$PROJECT_DIR$/src/test/resources/GebConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geb-examples.iml" afterPath="$PROJECT_DIR$/geb-examples.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GebTest.iws" />
@@ -119,10 +102,8 @@
       <file leaf-file-name="GebConfig.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.31796503" vertical-offset="0" max-vertical-offset="1200">
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
+            <state line="5" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.031796504" vertical-offset="0" max-vertical-offset="1120">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -936,7 +917,11 @@
       <created>1393703500415</created>
       <updated>1393703500415</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="updated pom">
+      <created>1394373414882</created>
+      <updated>1394373414882</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1029,7 +1014,8 @@
     <MESSAGE value="Updated for use on the new Macbook Air, running Mavericks (worst OS name ever)" />
     <MESSAGE value="Updated module example to be slightly more interesting..." />
     <MESSAGE value="Test commit..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test commit..." />
+    <MESSAGE value="updated pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated pom" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1365,10 +1351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.31796503" vertical-offset="0" max-vertical-offset="1200">
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
+        <state line="5" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.031796504" vertical-offset="0" max-vertical-offset="1120">
+          <folding />
         </state>
       </provider>
     </entry>
