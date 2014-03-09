@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c05874d7-0736-4613-84a8-83a5083cbd7b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GebTest.iws" />
@@ -99,10 +100,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GebConfig.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GebConfig.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.031897925" vertical-offset="0" max-vertical-offset="1120">
+            <state line="5" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1120">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="24" selection-start="115" selection-end="115" vertical-scroll-proportion="0.16611296" vertical-offset="0" max-vertical-offset="602">
               <folding />
             </state>
           </provider>
@@ -929,7 +939,11 @@
       <created>1394381813136</created>
       <updated>1394381813136</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Updated README with video overview...">
+      <created>1394381839770</created>
+      <updated>1394381839770</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1024,7 +1038,8 @@
     <MESSAGE value="Test commit..." />
     <MESSAGE value="updated pom" />
     <MESSAGE value="updated pom&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated pom&#10;" />
+    <MESSAGE value="Updated README with video overview..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README with video overview..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1353,16 +1368,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="116" selection-start="207" selection-end="207" vertical-scroll-proportion="0.16556291" vertical-offset="0" max-vertical-offset="604">
+        <state line="5" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1120">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.031897925" vertical-offset="0" max-vertical-offset="1120">
+        <state line="5" column="24" selection-start="115" selection-end="115" vertical-scroll-proportion="0.16611296" vertical-offset="0" max-vertical-offset="602">
           <folding />
         </state>
       </provider>
