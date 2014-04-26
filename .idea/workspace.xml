@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c05874d7-0736-4613-84a8-83a5083cbd7b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_41_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_41_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_41_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_41_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_41_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_41_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_41_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_41_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_server_2_41_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_41_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geb-examples.iml" afterPath="$PROJECT_DIR$/geb-examples.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    <list default="true" id="c05874d7-0736-4613-84a8-83a5083cbd7b" name="Default" comment="Fixed bug with logged in user text...">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/TestSuite.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GebTest.iws" />
@@ -84,28 +73,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WikipediaRecentChangesSpec.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/WikipediaRecentChangesSpec.groovy">
+      <file leaf-file-name="TestSuite.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/TestSuite.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="26" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="740" max-vertical-offset="1000">
+            <state line="8" column="21" selection-start="158" selection-end="158" vertical-scroll-proportion="0.19077902" vertical-offset="0" max-vertical-offset="629">
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#64#113#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CLSearchSpec.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="96" column="0" selection-start="2306" selection-end="2306" vertical-scroll-proportion="0.0" vertical-offset="1733" max-vertical-offset="2900">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WikipediaRecentChangesPage.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/WikipediaRecentChangesPage.groovy">
+      <file leaf-file-name="CheckboxModule.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/modules/CheckboxModule.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="8" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="900">
+            <state line="17" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="MoodleSandboxLoginSpec.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/MoodleSandboxLoginSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="18" selection-start="575" selection-end="575" vertical-scroll-proportion="1.3930348" vertical-offset="0" max-vertical-offset="1640">
+            <state line="7" column="37" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
               <folding />
             </state>
           </provider>
@@ -129,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/groovy/pages/MoodleSandboxPage.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/Bug.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/GoogleTranslate.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/GoogleTranslateSpec.groovy" />
@@ -140,7 +140,6 @@
         <option value="$PROJECT_DIR$/src/test/groovy/pages/CLMainPage.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/modules/CLResultsModule.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/pages/CLSearchResultsPage.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/pages/CLPostPage.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/WikiRecentChangesSpec.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/pages/WikipediaRecentChangesPage.groovy" />
@@ -148,6 +147,9 @@
         <option value="$PROJECT_DIR$/src/test/resources/GebConfig.groovy" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/groovy/pages/MoodleSandboxPage.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/TestSuite.groovy" />
       </list>
     </option>
   </component>
@@ -219,6 +221,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -361,7 +364,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,7 +402,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="906" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
-  <component name="RunManager" selected="JUnit.Sauce: ie10/win8">
+  <component name="RunManager" selected="JUnit.TestSuite">
     <configuration default="false" name="GoogleTranslateSpec" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="geb-examples" />
       <setting name="path" value="file://$PROJECT_DIR$/src/test/groovy/GoogleTranslateSpec.groovy" />
@@ -430,7 +432,13 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -442,29 +450,7 @@
       <option name="MAIN_CLASS_NAME" value="CLSearchSpec" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-Dgeb.env=safari" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CLSearchSpec.message displayed when no results found" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="geb-examples" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CLSearchSpec" />
-      <option name="METHOD_NAME" value="message displayed when no results found" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-Dgeb.env=sauce &quot;-Dsauce.config=safari:OS X 10.9:7&quot; -Dsauce.user=qualityshepherd -Dsauce.key=eea4ba85-52c0-4e68-b158-d5f2f8d32b2a" />
+      <option name="VM_PARAMETERS" value="-Dgeb.env=chrome" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
@@ -484,6 +470,28 @@
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WikipediaRecentChangesSpec" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-Dgeb.env=chrome" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="geb-examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSuite" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-Dgeb.env=chrome" />
@@ -779,24 +787,24 @@
       <method />
     </configuration>
     <list size="10">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Sauce: safari7/mavericks" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Nuttin... " />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Sauce: ie10/win8" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Sauce: safari:mavricks:7" />
-      <item index="4" class="java.lang.String" itemvalue="Maven.Sauce" />
-      <item index="5" class="java.lang.String" itemvalue="Groovy.GoogleTranslateSpec" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.MoodleSandboxLoginSpec" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.CLSearchSpec" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.CLSearchSpec.message displayed when no results found" />
-      <item index="9" class="java.lang.String" itemvalue="JUnit.WikipediaRecentChangesSpec" />
+      <item index="0" class="java.lang.String" itemvalue="Groovy.GoogleTranslateSpec" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Sauce: safari7/mavericks" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Nuttin... " />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Sauce: ie10/win8" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Sauce: safari:mavricks:7" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.MoodleSandboxLoginSpec" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.CLSearchSpec" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.WikipediaRecentChangesSpec" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.TestSuite" />
+      <item index="9" class="java.lang.String" itemvalue="Maven.Sauce" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CLSearchSpec" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WikipediaRecentChangesSpec" />
-        <item index="2" class="java.lang.String" itemvalue="Groovy.GoogleTranslateSpec" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MoodleSandboxLoginSpec" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CLSearchSpec.message displayed when no results found" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestSuite" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CLSearchSpec" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MoodleSandboxLoginSpec" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.WikipediaRecentChangesSpec" />
+        <item index="4" class="java.lang.String" itemvalue="Groovy.GoogleTranslateSpec" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -944,12 +952,20 @@
       <created>1394382169534</created>
       <updated>1394382169534</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Updated Selenium...">
+      <created>1398176515231</created>
+      <updated>1398176515231</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Fixed bug with logged in user text...">
+      <created>1398527886236</created>
+      <updated>1398527886236</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="22" width="1285" height="746" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810047" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -957,7 +973,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.69014084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959871" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39939025" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -967,8 +983,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985553" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16411906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.652439" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17779565" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6493902" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1012,11 +1028,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="added main folders...&#10;" />
-    <MESSAGE value="Updated IEDriver to 32bit - fixed slowmo" />
+    <confirmMoveToFailedCommit value="1" />
     <MESSAGE value="removed ff maximize" />
     <MESSAGE value="Updated readme..." />
     <MESSAGE value="added option to run tests on saucelabs..." />
@@ -1040,7 +1056,9 @@
     <MESSAGE value="Updated README with video overview..." />
     <MESSAGE value="Re-upated the README because it doesn't support embedding video... sadly." />
     <MESSAGE value="Ert... fixed the video url..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ert... fixed the video url..." />
+    <MESSAGE value="Updated Selenium..." />
+    <MESSAGE value="Fixed bug with logged in user text..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug with logged in user text..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1050,13 +1068,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/WikipediaRecentChangesPage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="31" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="8" selection-start="461" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1120" />
@@ -1280,35 +1291,9 @@
         <state line="8" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.26058632" vertical-offset="0" max-vertical-offset="614" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/MoodleSandboxLoginSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="178" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/MoodleSandboxPage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.10204082" vertical-offset="0" max-vertical-offset="820">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/GoogleTranslateSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="74" selection-end="74" vertical-scroll-proportion="0.10204082" vertical-offset="0" max-vertical-offset="588" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/data/UserData.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="4" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/modules/CheckboxModule.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="218" selection-end="218" vertical-scroll-proportion="0.4262295" vertical-offset="0" max-vertical-offset="610">
           <folding />
         </state>
       </provider>
@@ -1323,13 +1308,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/CLMainPage.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="30" selection-start="634" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="0" selection-start="3022" selection-end="3022" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2900">
           <folding />
         </state>
       </provider>
@@ -1360,11 +1338,6 @@
         <state line="5" column="67" selection-start="158" selection-end="158" vertical-scroll-proportion="0.16556291" vertical-offset="0" max-vertical-offset="604" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="-0.12718602" vertical-offset="100" max-vertical-offset="1120" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/WikipediaRecentChangesPage.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="8" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="900">
@@ -1374,8 +1347,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="575" selection-end="575" vertical-scroll-proportion="1.3930348" vertical-offset="0" max-vertical-offset="1640">
+        <state line="1" column="50" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1640">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="14" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="470" max-vertical-offset="1120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/GoogleTranslateSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/pages/MoodleSandboxPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="8" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/modules/CheckboxModule.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/CLSearchSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="0" selection-start="2306" selection-end="2306" vertical-scroll-proportion="0.0" vertical-offset="1733" max-vertical-offset="2900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/MoodleSandboxLoginSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="37" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/TestSuite.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="21" selection-start="158" selection-end="158" vertical-scroll-proportion="0.19077902" vertical-offset="0" max-vertical-offset="629">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#64#113#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
