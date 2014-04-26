@@ -7,7 +7,7 @@ class MoodleSandboxPage extends Page {
     static at = {pageHeader}
     static content = {
         pageHeader {$('h1', text:'Moodle sandbox')}
-        loggedInAs {$('div.logininfo a',0)}
+        loggedInAs {$("a", title:"View profile")}
         navbarButton(required:false) {$('a.btn-navbar')}
 
         // login form...
