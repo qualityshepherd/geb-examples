@@ -7,17 +7,18 @@ import org.openqa.selenium.safari.SafariDriver
 baseUrl = 'http://madison.craigslist.org'
 
 // default driver...
-driver = { new FirefoxDriver() }
+System.setProperty('webdriver.chrome.driver', "../resources/chromedriver")
+driver = {new ChromeDriver()}
 
 environments {
     // specify environment via -Dgeb.env=ie
-    'ie' {
+    "ie" {
         def ieDriver = new File('src/test/resources/IEDriverServer.exe')
         System.setProperty('webdriver.ie.driver', ieDriver.absolutePath)
         driver = { new InternetExplorerDriver() }
     }
 
-    'chrome' {
+    "chrome" {
         def chromeDriver = new File('src/test/resources/chromedriver') // add .exe for Windows...
         System.setProperty('webdriver.chrome.driver', chromeDriver.absolutePath)
         driver = { new ChromeDriver() }
@@ -25,7 +26,7 @@ environments {
 
     'ff' {
         driver = { new FirefoxDriver() }
-        //driver.Manage().Window.Maximize()
+        driver.manage().window().maximize()
     }
 
     'safari' {

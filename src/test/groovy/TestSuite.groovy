@@ -10,6 +10,7 @@ import org.junit.runners.Suite
     CLSearchSpec.class,
     MoodleSandboxLoginSpec.class,
     WikipediaRecentChangesSpec.class,
+    AngularTest.class,
 ])
 
 public class TestSuite {
