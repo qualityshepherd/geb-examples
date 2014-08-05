@@ -4,9 +4,9 @@ import geb.Page
 
 class MoodleSandboxPage extends Page {
     static url = 'http://demo.moodle.net/?lang=en'
-    static at = {pageHeader}
+    static at = {title =~ "Moodle sandbox demo"}
     static content = {
-        pageHeader {$('h1', text:'Moodle sandbox')}
+        pageHeader {$('h1', text:'Moodle sandbox demo')}
         loggedInAs {$("a", title:"View profile")}
         navbarButton(required:false) {$('a.btn-navbar')}
 

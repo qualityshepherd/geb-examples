@@ -4,9 +4,8 @@ import geb.Page
 
 class CLMainPage extends Page {
     static url = 'http://madison.craigslist.org/'
-    static at = {pageTitle}
+    static at = {title =~ "craigslist: madison"}
     static content = {
-        pageTitle {title == 'craigslist: madison classifieds for jobs, apartments, personals, for sale, services, community, and events'}
         searchBox {$("input#query")}
         searchButton {$("input#go")}
         dropdown {$("select#catAbb")}
