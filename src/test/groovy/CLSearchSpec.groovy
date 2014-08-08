@@ -62,7 +62,7 @@ class CLSearchSpec extends GebReportingSpec {
         at CLSearchResultsPage
 
         and: "selecting picview"
-        picviewButton.click()
+        thumbButton.click()
 
         and: "performing another search"
         to CLMainPage
@@ -70,7 +70,7 @@ class CLSearchSpec extends GebReportingSpec {
 
         then: "results are still in picview"
         at CLSearchResultsPage
-        picviewButtonSelected
+        thumbButtonSelected
     }
 
     def "result views are NOT sticky when switching categories"() {
@@ -82,7 +82,7 @@ class CLSearchSpec extends GebReportingSpec {
         at CLSearchResultsPage
 
         and: "show only results with pictures"
-        picviewButton.check()
+        thumbButton.click()
 
         and: "performing another search in another category"
         to CLMainPage
