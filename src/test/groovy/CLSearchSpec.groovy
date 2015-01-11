@@ -104,7 +104,6 @@ class CLSearchSpec extends GebReportingSpec {
 
         and: "filter results with pics"
         picCheckbox.check()
-        searchButton.click()
 
         then: "all results have pics"
         picCheckbox.isChecked()
@@ -138,6 +137,6 @@ class CLSearchSpec extends GebReportingSpec {
 
         then: "results title matches the result list title"
         at CLPostPage
-        postingTitle.text() =~ firstPostTitle
+        postingTitle.text().startsWith(firstPostTitle)
     }
 }
