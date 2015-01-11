@@ -9,7 +9,6 @@ class CLSearchResultsPage extends Page {
     static content = {
         searchBody(wait:true) {$('body.search')}
         searchBox {$('input#query')}
-        searchButton {$('input#searchbtn')}
 
         // use moduleList to get list of search results and elements...
         searchResults {moduleList CLResultsModule, $('p.row')}
